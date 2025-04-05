@@ -1,0 +1,32 @@
+# -------------------------
+# Python Bytecode & Caches
+# -------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# -------------------------
+# Virtual Environment Folders
+# -------------------------
+.venv/
+env/
+envr/
+venv/
+
+# -------------------------
+# Datasets (exclude raw data; keep metadata if needed)
+# -------------------------
+UrbanSound8K/       # Full dataset folder
+
+# -------------------------
+# IDE & OS Files
+# -------------------------
+.DS_Store            # macOS
+.idea/               # JetBrains IDEs (e.g., PyCharm)
+.vscode/             # VS Code settings
+
+# -------------------------
+# Large or Temporary Files
+# -------------------------
+logs/
+*.log
